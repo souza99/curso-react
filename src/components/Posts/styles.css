@@ -1,0 +1,11 @@
+.posts {
+    /* display grid mostra os elementos em linhas e colunas */
+    display: grid;
+  
+    /* grid-template-columns: define o número de colunas e o tamanho de cada uma */
+    /* minmax(280px, 1fr) usa 280 px para cadas elemento na tela, mas se não caber, usa apenas 1 fraguimento*/
+    grid-template-columns:
+    repeat(auto-fill, minmax(280px, 1fr));
+  
+    gap: 30px;  
+  }

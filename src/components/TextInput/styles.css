@@ -1,0 +1,7 @@
+.text-imput {
+    width: 100%;
+    font-size: 30px;
+    
+    /* padding: 5px é o top e bottom e 10px é o left e right; */
+    padding: 5px 10px;
+}
