@@ -1,6 +1,3 @@
-
-import { Component } from 'react';
-
 import './styles.css';
 
 export const Button = (props) => {
