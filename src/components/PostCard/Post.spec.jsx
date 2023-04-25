@@ -18,6 +18,7 @@ describe('< PostCard />', () => {
         const { container } = render(<PostCard {...props} />);
         expect(container.firstChild).toMatchSnapshot();
     });
+    
 });
 
 
